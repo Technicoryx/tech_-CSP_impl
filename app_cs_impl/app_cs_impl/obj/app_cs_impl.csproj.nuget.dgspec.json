@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\app_cs_impl\\app_cs_impl.csproj": {}
+  },
+  "projects": {
+    "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\app_cs_impl\\app_cs_impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\app_cs_impl\\app_cs_impl.csproj",
+        "projectName": "app_cs_impl",
+        "projectPath": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\app_cs_impl\\app_cs_impl.csproj",
+        "packagesPath": "C:\\Users\\ZR269GN\\.nuget\\packages\\",
+        "outputPath": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\app_cs_impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ZR269GN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\csp_model\\csp_model.csproj": {
+                "projectPath": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\csp_model\\csp_model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\csp_model\\csp_model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\csp_model\\csp_model.csproj",
+        "projectName": "csp_model",
+        "projectPath": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\csp_model\\csp_model.csproj",
+        "packagesPath": "C:\\Users\\ZR269GN\\.nuget\\packages\\",
+        "outputPath": "C:\\DD\\PersonalDocument\\Personalrepos\\tech_-CSP_impl\\app_cs_impl\\csp_model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ZR269GN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
